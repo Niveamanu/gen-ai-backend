@@ -1,0 +1,9 @@
+Flask 
+requests 
+python-dotenv 
+flask-cors 
+werkzeug 
+pandas 
+google-generativeai 
+PyPDF2 
+beautifulsoup4 
