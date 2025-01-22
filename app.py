@@ -25,7 +25,7 @@ app.secret_key = os.urandom(24)
 
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
-REDIRECT_URI = os.getenv("REDIRECT_URI")
+REDIRECT_URI = "https://gen-ai-backend-1.onrender.com/callback"
 
 @app.route("/")
 def home():
